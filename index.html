@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Meta refresh redirects the page instantly (0 second delay) -->
+  <meta http-equiv="refresh" content="0; url=https://example.com">
+  <title>Aster - Redirecting...</title>
+  <script type="text/javascript">
+    // JavaScript fallback for redirection
+    const TARGET_URL = "https://aster.hn";
+    window.addEventListener('DOMContentLoaded', () => {
+      if (window.location.href !== TARGET_URL) {
+        window.location.href = TARGET_URL;
+      }
+    });
+  </script>
+</head>
+<body>
+  <!-- Message for users in case the automatic redirect does not work -->
+  <p>You are being redirected to <a href="https://aster.hn">https://aster.hn</a>. If the redirection does not happen automatically, please click the link.</p>
+</body>
+</html>
